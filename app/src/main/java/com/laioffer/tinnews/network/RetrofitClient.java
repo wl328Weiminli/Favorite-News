@@ -2,6 +2,8 @@ package com.laioffer.tinnews.network;
 
 import android.content.Context;
 
+import com.ashokvarma.gander.GanderInterceptor;
+
 import java.io.IOException;
 
 import okhttp3.Interceptor;
@@ -20,6 +22,7 @@ public class RetrofitClient {
     public static Retrofit newInstance(Context context) {
         OkHttpClient okHttpClient = new OkHttpClient.Builder()
                 .addInterceptor(new HeaderInterceptor())
+                .addInterceptor(new GanderInterceptor(context).showNotification(true))
                 .build();
         return new Retrofit.Builder()
                 .baseUrl(BASE_URL)
