@@ -1,4 +1,4 @@
-# TinNews
+# Fivorite News
 Andriod :  news app
 
 ## Fivorite News: a Tinder-like News App 
