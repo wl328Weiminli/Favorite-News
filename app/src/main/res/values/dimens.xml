@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="screen_margin">16dp</dimen>
+    <dimen name="margin_default">12dp</dimen>
+    <dimen name="margin_small">4dp</dimen>
+    <dimen name="margin_large">16dp</dimen>
+    <dimen name="margin_compact">8dp</dimen>
+    <dimen name="margin_xlarge">24dp</dimen>
+</resources>
