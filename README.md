@@ -16,3 +16,11 @@ Andriod :  news app
 
 ### The Search Page
 ![Search Page](./Screenshot/screen2.jpg)
+
+
+### The Detail Page
+![Search Page](./Screenshot/screen3.jpg)
+
+
+### The Saved Page
+![Search Page](./Screenshot/screen4.jpg)
