@@ -1,0 +1,2 @@
+# TinNews
+Andriod :  news app
